@@ -3,7 +3,8 @@ import Axios from 'axios';
 import '../Content/Home.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import News from '../Content/News';
-import Placeholder from '../Content/Placeholder';
+import randomuser from '../Content/randomuser';
+import AboutMe from '../Content/AboutMe';
 
 class Home extends Component {
     render() {
@@ -21,10 +22,10 @@ class Home extends Component {
                                 <Link to="">Portal Bertita</Link>
                                 </li>
                                 <li>
-                                <Link to="/Placeholder">Json Placeholder</Link>
+                                <Link to="/Placeholder">Random-User</Link>
                                 </li>
                                 <li>
-                                <Link to="">About Me</Link>
+                                <Link to="/AboutMe">About Me</Link>
                                 </li>
                             </ul>
                         </div>
@@ -32,7 +33,8 @@ class Home extends Component {
                 </div>
                 <div className="Content">
                     <Route path="/" exact component={News}/>
-                    <Route path="/Placeholder"  component={Placeholder}/>
+                    <Route path="/Placeholder"  component={randomuser}/>
+                    <Route path="/AboutMe"  component={AboutMe}/>
                 </div>
             </div>  
             </Router>

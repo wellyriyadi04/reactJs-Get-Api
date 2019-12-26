@@ -31,11 +31,11 @@ class News extends Component {
                     return(
                     <div className="dataapi" key={index}>
                         {/* <p>{dat.name.title}&nbsp;{dat.name.first}&nbsp;{dat.name.last}</p> */}
-                       <h3>{dat.title}</h3>
-                       <p>{dat.description}</p>
-                       <img src={dat.urlToImage}></img>
-                       <p>{dat.publishedAt}</p>
-                       <p>{dat.content}</p>
+                       <p className="p1"><h3>{dat.title}</h3></p>
+                       <p className="p1">{dat.description}</p>
+                       <img className="img1" src={dat.urlToImage}></img>
+                       <p className="p1">{dat.publishedAt}</p>
+                       <p className="p1">{dat.content}</p>
                     </div>
                     )
                 })}
