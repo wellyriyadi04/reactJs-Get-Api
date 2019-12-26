@@ -1,15 +1,15 @@
 .wrapper{
     background-color: darkcyan;
-    height: 600px;
-    padding: 0px;
-    margin: 0px;
+    height: 680px;
+    padding: 0px;src: ;
 }
 
 h1{
     width: 100%;
     text-align: center;
-    margin-bottom: -10px;
     color: white;
+    margin-top: -10px;
+    padding-top: 28px;
 }
 
 .dataapi{

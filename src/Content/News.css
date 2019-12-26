@@ -1,0 +1,16 @@
+.dataapi{
+    min-height: 500px;
+    width: 1000px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+img{
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+    margin-left: 100px;
+}

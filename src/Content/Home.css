@@ -1,0 +1,60 @@
+.wrapper {
+    height: auto;
+    margin: auto;
+}
+
+.header {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+.navbar {
+    height: 100px;
+    width: 1200px;
+    margin: auto;
+}
+
+.menu {
+    width: 550px;
+    height: 100px;
+    float: right;
+    margin-right: 62px;
+}
+
+.menu ul {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.menu ul li {
+    float: left;
+    margin-right: 30px;
+    list-style: none;
+    line-height: 60px;
+    width: auto;
+}
+
+.menu ul li a{
+    height: 150px;
+    color: cyan;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu ul li a:hover {
+    color: gold;
+    width: 100px;
+    cursor: pointer;
+    height: 300px;
+}
+
+.logo1{
+    height: 36px;
+    width: 210px;
+    border-radius:0px;
+    float: left;
+    margin-top: 32px;
+}
